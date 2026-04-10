@@ -8,4 +8,4 @@ Feature: Lagerhållning
   Scenario: Minska antalet av en specifik produkt
     Given att lagret innehåller produkten "Tält" med antal 10
     When jag minskar antalet för produkten "Tält" med 3
-    Then ska produkten "Äpple" ha antal 7
+    Then ska produkten "Tält" ha antal 7
